@@ -1,0 +1,22 @@
+{
+  "name": "awesomenodepostgres",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "create": "node ./services/db createTables",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "zionmusa",
+  "license": "MIT",
+  "description": "A project to persist data using Node.js and PostgreSQL",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "make-runnable": "^1.4.1",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
